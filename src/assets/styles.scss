@@ -3,3 +3,8 @@
 @use '@/assets/tailwind.css';
 @use '@/assets/layout/layout.scss';
 @use '@/assets/demo/demo.scss';
+
+//He tenido que definir esto para poder aplicarlo al color del boton
+.custom-button {
+    @apply bg-[#0f5274] hover:bg-[#0d4561] text-white font-bold py-2 px-4 rounded;
+}
